@@ -255,7 +255,7 @@ class _FormPageState extends State<FormPage> {
                   }
 //snackbar notification
                   final snackBar =
-                      SnackBar(content: Text('Data berhasil save!'));
+                      SnackBar(content: Text('Data berhasil ya ges yak!'));
                   ScaffoldMessenger.of(context).showSnackBar(snackBar);
 //back to main page
 //home page => '/'

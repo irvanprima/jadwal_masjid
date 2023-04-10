@@ -249,12 +249,13 @@ class _FormPageState extends State<FormPage> {
                       'name': nameController.text,
                       'waktuKegiatan': waktuKegiatanController.text,
                       'penanggungJawab': penanggungJawabController.text,
+
                       'Keterangan': KeteranganController.text
                     });
                   }
 //snackbar notification
                   final snackBar =
-                      SnackBar(content: Text('Data berhasil disimpan!'));
+                      SnackBar(content: Text('Data berhasil save!'));
                   ScaffoldMessenger.of(context).showSnackBar(snackBar);
 //back to main page
 //home page => '/'
@@ -267,3 +268,5 @@ class _FormPageState extends State<FormPage> {
         ));
   }
 }
+//mau coba aja
+
